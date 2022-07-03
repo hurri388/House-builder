@@ -6,7 +6,7 @@ import {
         contentPortfolio
         } from "../../data";
 
-export default function Portfolio() {
+export default function Archietect() {
     
     const[selected, setSelected] = useState("featured");
     const[data, setData] = useState([]);
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 <ul>
                         {
                             list.map((item) => (
-                                <PortfolioList 
+                                <ArchietectList 
                                 title={item.title}
                                 active={selected === item.id}
                                 setSelected={setSelected}
