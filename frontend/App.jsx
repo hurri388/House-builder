@@ -1,6 +1,6 @@
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
-import Portfolio from './components/portfolio/Portfolio';
+import Archietect from './components/archietect/Archietect';
 import Works from './components/works/Works';
 import Testimonials from './components/testimonials/Testimonials';
 import Feedback from './components/feedback/Feedback';
@@ -17,7 +17,7 @@ function App() {
       <div className="sections">
                 
               <Intro/>
-              <Portfolio/>
+              <Archietect/>
               <Works/>
               <Testimonials/>
               <Feedback/>
