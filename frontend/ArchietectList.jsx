@@ -1,8 +1,8 @@
-import "./portfolioList.css"
+import "./archietectList.css"
 
-export default function PortfolioList({id,title, active, setSelected}) {
+export default function ArchietectList({id,title, active, setSelected}) {
     return (
-        <li className = {active ? "portfolio active" : "portfolioList"}
+        <li className = {active ? "archietect active" : "archietectList"}
             onClick={() => setSelected(id)}
         >
             {title}            
