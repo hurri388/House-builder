@@ -1,11 +1,8 @@
 import {useEffect,useState } from "react";
-import PortfolioList from '../portfolioList/PortfolioList';
-import "./portfolio.scss"
+import ArchietectList from '../archietectList/ArchietectList';
+import "./archietect.scss"
 import {
-        featuredPortfolio,
-        webPortfolio,
-        mobilePortfolio,
-        designPortfolio,
+        
         contentPortfolio
         } from "../../data";
 
@@ -67,7 +64,7 @@ export default function Portfolio() {
                 }
         },[selected])
     return (
-        <div className="portfolio" id="portfolio">
+        <div className="archietect" id="archietect">
                 <h1>Top#5 Archietect</h1>
                 <ul>
                         {
